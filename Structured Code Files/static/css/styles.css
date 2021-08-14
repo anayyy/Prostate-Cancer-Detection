@@ -1,0 +1,198 @@
+html, body{
+	height: 100%;
+}
+
+#fullback{
+	background-color: black;
+	background-image: url("images/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 100%;
+
+}
+
+#mainheadingdiv{
+
+	position: absolute;
+	top: 30%;
+	left: 5%;
+
+}
+
+#welcometext{
+	color: #aaaaaa;
+	letter-spacing: 2px;
+	padding-left: 3px;
+	word-spacing: 5px;
+	font-size: 16px;
+
+	
+}
+
+
+#mainheading{
+	font-family: "Comfortaa";
+	color: white;
+	font-size: 52px;
+
+}
+
+#runapp{
+	width: 25%;
+	color: white;
+	text-align: center;
+	padding: 2%;
+	border-style: solid;
+	border-color: white;
+	border-width: 2px;
+
+}
+#runapp:hover{
+	color: black;
+	background-color: white;
+	
+}
+a:hover{
+	text-decoration: none;
+
+}
+
+#formdiv{
+	background-color: black;
+	background-image: url("images/bgpt2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 100%;
+	width: 100%;
+	margin-left: 0px;
+}
+
+#formtext{
+	padding-top: 10%;
+	padding-left: 7%;
+	padding-right: 7%;
+	width: 50%;
+	font-size: 34px;
+	font-family: "Comfortaa";
+	color: white;
+}
+
+#formtable{
+
+	color: white;
+	width: 50%;
+	padding-top: 8%;
+	
+	
+
+}
+
+table{
+	position: relative;
+	border-left-style: solid;
+	border-color: #3c0d37;
+	border-width: 8px;
+	font-size: 20px;
+	width: 80%;
+	margin-left: 0px;
+}
+
+
+
+label, input{
+	margin-top: 3%;
+	margin-bottom: 2%;
+	margin-left: 35%;
+	width: 100%;	
+}
+
+input{
+	width: 50%;
+	border-style: none;
+}
+
+button{
+	background-color: transparent;
+	color: white;
+	border-style: solid;
+	border-color: white;
+	font-size: 20px;
+}
+#submittext{
+	margin-top: 6%;
+	margin-left: 40%;
+	}
+button:hover{
+	background-color: white;
+	color: black;
+}
+
+
+#resultnegative{
+	
+	background-color: black;
+	background-image: url("images/bgpt2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 100%;
+	width: 100%;
+	margin-left: 0px;
+	padding-top: 18%;
+}
+#resultnegativetext{
+	width: 50%;
+	font-size: 50px;
+	text-align: right;
+	padding-right: 20px;
+	font-family: "Comfortaa";
+	color: white;
+}
+#resultnegativebox{
+	color: white;
+	background-color: #00be09;
+	width: 50%;
+	height: 150px;
+	font-size: 70px;
+	padding-top: 1%;
+	padding-left: 20px;
+	text-align: left;
+
+
+}
+
+
+#resultpositive{
+	
+	background-color: black;
+	background-image: url("images/bgpt2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 100%;
+	width: 100%;
+	margin-left: 0px;
+	padding-top: 18%;
+}
+#resultpositivetext{
+	width: 50%;
+	font-size: 50px;
+	text-align: right;
+	padding-right: 20px;
+	font-family: "Comfortaa";
+	color: white;
+}
+#resultpositivebox{
+	color: white;
+	background-color: #e50e0e;
+	width: 50%;
+	height: 150px;
+	font-size: 70px;
+	padding-top: 1%;
+	padding-left: 20px;
+	text-align: left;
+	
+
+}

@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Prostate Cancer Detector</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/styles.css')}}">
+    <link href='https://fonts.googleapis.com/css?family=Caveat' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Economica' rel='stylesheet'>
+
+  	
+  </head>
+<body>
+
+<div id="fullback">
+
+<div class="page-header" id="mainheadingdiv">
+	<h5 id="welcometext">WELCOME TO</h5>
+	<h1 id="mainheading">Prostate Cancer <br>Detector</h1>
+	<br>
+	<div><a href="#formdiv"><div id="runapp">Start App</div></a></div>
+	
+</div>
+
+</div>
+
+<div id="formdiv" class="row">
+
+
+<div id="formtext">Our Python code will use the values of the given parameters to make the prediction. <br><br> Fill in the values and run the program.</div>
+
+<div id="formtable">
+
+<form method="POST" action="result">
+
+	<table>
+		<tr>	
+			<th><label>Radius</label></th>
+			<th><input type="number" step="0.0001" name="Radius" value={{request.form.Radius}}></th>
+		</tr>
+		<tr>
+			<th><label>Texture</label></th>
+			<th><input type="number" step="0.0001" name="Texture" value={{request.form.Texture}}></th>
+		</tr>
+		<tr>
+			<th><label>Perimeter</label></th>
+			<th><input type="number" step="0.0001" name="Perimeter" value={{request.form.Perimeter}}></th>
+		</tr>
+		<tr>
+			<th><label>Area</label></th>
+			<th><input type="number" step="0.0001" name="Area" value={{request.form.Area}}></th>
+		</tr>
+		<tr>
+			<th><label>Smoothness</label></th>
+			<th><input type="number" step="0.0001" name="Smoothness" value={{request.form.Smoothness}}></th>
+		</tr>
+		<tr>
+			<th><label>Compactness</label></th>
+			<th><input type="number" step="0.0001" name="Compactness" value={{request.form.Compactness}}></th>
+		</tr>
+		<tr>
+			<th><label>Symmetry</label></th>
+			<th><input type="number" step="0.0001" name="Symmetry" value={{request.form.Symmetry}}></th>
+		</tr>
+		<tr>
+			<th><label>Fractal Dimension</label></th>
+			<th><input type="number" step="0.0001" name="Fractual_Dimension" value={{request.form.Fractual_Dimension}}></th>
+		</tr>
+			
+
+	</table>
+
+	<div id="submittext">
+	<button type="submit">Run</button>
+	</div>
+	
+</form>
+
+</div>
+</div>
+
+</body>
+</html>

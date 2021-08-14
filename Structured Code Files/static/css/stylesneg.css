@@ -1,0 +1,36 @@
+html, body{
+	height: 100%;
+}
+
+#resultnegative{
+	
+	background-color: black;
+	background-image: url("images/bgpt2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	min-height: 100%;
+	width: 100%;
+	margin-left: 0px;
+	padding-top: 18%;
+}
+#resultnegativetext{
+	width: 50%;
+	font-size: 50px;
+	text-align: right;
+	padding-right: 20px;
+	font-family: "Comfortaa";
+	color: white;
+}
+#resultnegativebox{
+	color: white;
+	background-color: #00be09;
+	width: 50%;
+	height: 150px;
+	font-size: 70px;
+	padding-top: 1%;
+	padding-left: 20px;
+	text-align: left;
+
+
+}
